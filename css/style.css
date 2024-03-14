@@ -1,6 +1,6 @@
 .aiday-teaser {
-    width: 15rem;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
     /*margin-right: auto;*/
     /*margin-bottom: 0.25rem;*/
     margin-left: auto;
@@ -64,6 +64,10 @@
     /*width: 50%;*/
     /*border: 3px solid red;*/
     /*padding: 10px;*/
+}
+
+.text-big {
+    font-size: large;
 }
 
 .text-orange {
