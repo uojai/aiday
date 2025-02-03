@@ -1,0 +1,109 @@
+.aiday-teaser {
+    width: 25rem;
+    height: 25rem;
+    /*margin-right: auto;*/
+    /*margin-bottom: 0.25rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*border-radius: 50%;*/
+    /*border-color: white;*/
+    /*border-width: 10px;*/
+    /*border-style: solid;*/
+    /*box-shadow: 0px 0px 0px;*/
+    /*margin: 5px;*/
+    /*border: 3px solid red;*/
+    display:block;
+}
+
+.aiday-logo {
+    width: 25rem;
+    /*height: 25rem;*/
+    /*margin-right: auto;*/
+    /*margin-bottom: 0.25rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*border-radius: 50%;*/
+    /*border-color: white;*/
+    /*border-width: 10px;*/
+    /*border-style: solid;*/
+    /*box-shadow: 0px 0px 0px;*/
+    /*margin: 5px;*/
+}
+
+.background-teal {
+    background: #24414F;
+}
+
+.program-overview {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /*border: 3px solid red;*/
+    color: white;
+    /*padding: 10px;*/
+}
+
+.indent-5 {
+    margin-left: 45px;
+}
+.ender {
+    width: 25rem;
+    /*height: 25rem;*/
+    /*margin-right: auto;*/
+    /*margin-bottom: 0.25rem;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*border-radius: 50%;*/
+    /*border-color: white;*/
+    /*border-width: 10px;*/
+    /*border-style: solid;*/
+    /*box-shadow: 0px 0px 0px;*/
+    /*margin: 5px;*/
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+    /*border: 3px solid red;*/
+    /*padding: 10px;*/
+}
+
+.text-big {
+    font-size: large;
+}
+
+.text-orange {
+    color: #d83b01!important
+}
+
+.text-yellow {
+    color: #ffb900!important
+}
+
+.footer {
+    font-size: small;
+}
+
+.time {
+    padding-right:5px;
+}
+
+.fun-fact {
+    font-style: italic;
+}
+
+.fun-fact-title {
+    /*font-style: italic;*/
+    font-weight: bold;
+}
+
+p {
+    line-height:30px;
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
