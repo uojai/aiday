@@ -917,6 +917,36 @@ select {
   transition-duration: 150ms;
 }
 
+@font-face{
+  font-family:century-gothic;
+
+  src:url("../fonts/handwriting.woff2") format("woff2"),
+    url("../fonts/handwriting.woff") format("woff"),
+    url("../fonts/handwriting.opentype") format("opentype");
+
+  font-weight:400;
+
+  font-style:normal;
+
+  font-stretch:normal;
+
+  font-display:auto;
+}
+
+@font-face{
+  font-family:Architects Daughter;
+
+  src:url("../fonts/architect.woff2") format("woff2");
+
+  font-weight:400;
+
+  font-style:normal;
+
+  font-stretch:normal;
+
+  font-display:auto;
+}
+
 .trailblazer {
   color: #000;
 }
@@ -924,7 +954,8 @@ select {
 /* General Styles */
 
 body {
-  font-family: Arial, sans-serif;
+  /*font-family: Arial, sans-serif;*/
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
@@ -941,11 +972,20 @@ header {
 header h1 {
   margin: 0;
   font-size: 2.5rem;
+  /*font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;*/
 }
 
 header p {
   margin: 10px 0 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  /*font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;*/
+}
+
+header h3 {
+  margin: 10px 0 0;
+  font-size: 0.7rem;
+  color: #0f9bf5;
+  /*font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;*/
 }
 
 /* University Logo Placeholder */
@@ -1032,12 +1072,12 @@ header p {
 
 .student-info h3 {
   margin: 0;
-  font-size: 0.90rem;
+  font-size: 0.80rem;
 }
 
 .student-info p {
   margin: 5px 0 0;
-  font-size: 0.65rem;
+  font-size: 0.60rem;
   color: #777;
 }
 
