@@ -956,5 +956,5 @@ header h3 {
 .student-info p {
   margin: 5px 0 0;
   font-size: 0.60rem;
-  color: #777;
+  color: rgba(33, 150, 243, 0.8);
 }
